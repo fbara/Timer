@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD2C8BB626FFDF8A00E8C311 /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2C8BB526FFDF8A00E8C311 /* TickView.swift */; };
+		AD2C8BB826FFE35400E8C311 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2C8BB726FFE35400E8C311 /* TimerModel.swift */; };
 		AD39764D26FFDE5B0023FAE4 /* Timer WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AD39764C26FFDE5B0023FAE4 /* Timer WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AD39765226FFDE5D0023FAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD39765126FFDE5D0023FAE4 /* Assets.xcassets */; };
 		AD39765826FFDE5D0023FAE4 /* Timer WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AD39765726FFDE5D0023FAE4 /* Timer WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -62,6 +63,7 @@
 
 /* Begin PBXFileReference section */
 		AD2C8BB526FFDF8A00E8C311 /* TickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
+		AD2C8BB726FFE35400E8C311 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
 		AD39764826FFDE5A0023FAE4 /* Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD39764C26FFDE5B0023FAE4 /* Timer WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD39765126FFDE5D0023FAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		AD2C8BB226FFDF3A00E8C311 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AD2C8BB726FFE35400E8C311 /* TimerModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				AD39765D26FFDE5D0023FAE4 /* ContentView.swift in Sources */,
 				AD39765F26FFDE5D0023FAE4 /* TimerApp.swift in Sources */,
+				AD2C8BB826FFE35400E8C311 /* TimerModel.swift in Sources */,
 				AD39766126FFDE5D0023FAE4 /* ComplicationController.swift in Sources */,
 				AD2C8BB626FFDF8A00E8C311 /* TickView.swift in Sources */,
 			);
