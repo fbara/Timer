@@ -17,6 +17,10 @@
 		AD39766126FFDE5D0023FAE4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD39766026FFDE5D0023FAE4 /* ComplicationController.swift */; };
 		AD39766326FFDE5F0023FAE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD39766226FFDE5F0023FAE4 /* Assets.xcassets */; };
 		AD39766626FFDE5F0023FAE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD39766526FFDE5F0023FAE4 /* Preview Assets.xcassets */; };
+		ADF79D7E26FFE72E00C079B0 /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF79D7D26FFE72E00C079B0 /* TimerCell.swift */; };
+		ADF79D8026FFEB7300C079B0 /* TimeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF79D7F26FFEB7300C079B0 /* TimeSelectionView.swift */; };
+		ADF79D8226FFECA500C079B0 /* View+Glow.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF79D8126FFECA500C079B0 /* View+Glow.swift */; };
+		ADF79D8426FFED2600C079B0 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF79D8326FFED2600C079B0 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,10 @@
 		AD39766226FFDE5F0023FAE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD39766526FFDE5F0023FAE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD39766726FFDE5F0023FAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF79D7D26FFE72E00C079B0 /* TimerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
+		ADF79D7F26FFEB7300C079B0 /* TimeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSelectionView.swift; sourceTree = "<group>"; };
+		ADF79D8126FFECA500C079B0 /* View+Glow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Glow.swift"; sourceTree = "<group>"; };
+		ADF79D8326FFED2600C079B0 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				AD2C8BB526FFDF8A00E8C311 /* TickView.swift */,
+				ADF79D7D26FFE72E00C079B0 /* TimerCell.swift */,
+				ADF79D7F26FFEB7300C079B0 /* TimeSelectionView.swift */,
+				ADF79D8326FFED2600C079B0 /* TimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,6 +117,7 @@
 		AD2C8BB426FFDF4A00E8C311 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				ADF79D8126FFECA500C079B0 /* View+Glow.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -288,11 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF79D8426FFED2600C079B0 /* TimerView.swift in Sources */,
 				AD39765D26FFDE5D0023FAE4 /* ContentView.swift in Sources */,
+				ADF79D8226FFECA500C079B0 /* View+Glow.swift in Sources */,
 				AD39765F26FFDE5D0023FAE4 /* TimerApp.swift in Sources */,
 				AD2C8BB826FFE35400E8C311 /* TimerModel.swift in Sources */,
+				ADF79D8026FFEB7300C079B0 /* TimeSelectionView.swift in Sources */,
 				AD39766126FFDE5D0023FAE4 /* ComplicationController.swift in Sources */,
 				AD2C8BB626FFDF8A00E8C311 /* TickView.swift in Sources */,
+				ADF79D7E26FFE72E00C079B0 /* TimerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
